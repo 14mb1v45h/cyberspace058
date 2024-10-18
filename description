@@ -1,0 +1,10 @@
+Keylogger Description
+This Python script captures keystrokes using the pynput library and logs them to a hidden file in the temporary directory. The keylogger operates invisibly by hiding the console window and is set to run at system startup by adding an entry to the Windows Registry.
+
+Key Features:
+Keystroke Logging: Logs each key pressed, including special keys (space, enter).
+Email Functionality: Sends logged data to a specified email address at regular intervals (every 30 seconds).
+Persistence: Ensures the keylogger starts automatically when the system boots.
+Invisibility: Hides the console window to avoid detection.
+Important Note:
+This code is intended for educational purposes only. Misuse of such scripts is illegal and unethical.
